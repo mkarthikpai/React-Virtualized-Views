@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-row-cell {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.table-row-content {
+  flex: 1;
+  padding: 0 1.5rem;
+}
+
+.table-header {
+  font-weight: bold;
+  background: gray;
+  display: flex;
+}
+
+.table-header-content {
+  flex: 1;
+  padding: 0 1.5rem;
+}
